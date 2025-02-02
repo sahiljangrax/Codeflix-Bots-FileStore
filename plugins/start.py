@@ -117,10 +117,10 @@ async def start_command(client: Client, message: Message):
 
         codeflix_msgs = []
         for msg in messages:
-            if CUSTOM_CAPTION:
-                    caption = f"{original_caption}\n\n{CUSTOM_CAPTION}"
-                else:
-                    caption = original_caption
+            caption = if CUSTOM_CAPTION:
+                         caption = f"{original_caption}\n\n{CUSTOM_CAPTION}"
+                      else:
+                         caption = original_caption
 
             reply_markup = msg.reply_markup if DISABLE_CHANNEL_BUTTON else None
 
