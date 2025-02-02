@@ -120,10 +120,10 @@ async def start_command(client: Client, message: Message):
             original_caption = msg.caption.html if msg.caption else ""
 
             if CUSTOM_CAPTION:
-                 caption = f"{original_caption}\n\n{CUSTOM_CAPTION}"
+                 caption = f"\n{CUSTOM_CAPTION}"
             else:
                   caption = original_caption
-                  
+
             reply_markup = msg.reply_markup if DISABLE_CHANNEL_BUTTON else None
 
             try:
