@@ -10,7 +10,7 @@
 * `DATABASE_URL` Your mongo db url
 * `DATABASE_NAME` Your mongo db session name
 * `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
-* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/codexbotz/File-Sharing-Bot/blob/main/README.md#start_message'>fillings</a>
+* `START_MESSAGE` Optional: start message of bot
 * `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 * `FORCE_SUB_CHANNEL1` 1st ForceSub Channel ID, leave 0 if you want disable force sub

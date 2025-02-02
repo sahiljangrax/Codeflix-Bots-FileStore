@@ -1,4 +1,4 @@
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @CodeFlix_Bots, SahilJangradm
 # Ask Doubt on telegram @CodeflixSupport
 
 import asyncio
@@ -194,7 +194,7 @@ async def start_command(client: Client, message: Message):
 
 
 #=====================================================================================##
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
+# Don't Remove Credit @CodeFlix_Bots, SahilJangradm
 # Ask Doubt on telegram @CodeflixSupport
 
 @Bot.on_message(filters.command('start') & filters.private)
